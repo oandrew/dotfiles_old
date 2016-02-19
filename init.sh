@@ -1,4 +1,6 @@
-ln -is ~/.dotfiles/.vimrc ~/.vimrc
-ln -is ~/.dotfiles/.tmux.conf ~/.tmux.conf
-ln -is ~/.dotfiles/.inputrc ~/.inputrc
-ln -is ~/.dotfiles/.dircolors ~/.dircolors
+#!/bin/sh
+
+ln -sft ~ .dotfiles/.vimrc.sh
+ln -sft ~ .dotfiles/.tmux.conf
+ln -sft ~ .dotfiles/.inputrc
+ln -sft ~ .dotfiles/.dircolors
