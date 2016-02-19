@@ -1,2 +1,3 @@
-ln -isr .vimrc /home/andrew
-ln -isr .tmux.conf /home/andrew
+ln -is ~/.dotfiles/.vimrc ~/.vimrc
+ln -is ~/.dotfiles/.tmux.conf ~/.tmux.conf
+ln -is ~/.dotfiles/.inputrc ~/.inputrc
