@@ -3,3 +3,13 @@ $include /etc/inputrc
 "\C-l": menu-complete-backward 
 set completion-map-case on
 set completion-query-items 0
+set show-all-if-ambiguous on
+set visible-stats on
+set completion-ignore-case on
+
+# Completed names which are symbolic links to
+# # directories have a slash appended.
+set mark-symlinked-directories on
+set completion-prefix-display-length 4
+set colored-stats on
+
